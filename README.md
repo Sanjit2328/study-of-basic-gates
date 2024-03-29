@@ -1,4 +1,4 @@
-### study-of-basic-gates
+### Study-of-basic-gates
 
 **AIM:** 
 
@@ -66,14 +66,36 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
- 
+ Developed by: Meenu.S
+ RegisterNumber: 212223230124
+ ~~~
+module LogicGates(a,b,and_out,or_out,not_out,xor_out,xnor_out,nand_out,nor_out);
+input a,b;
+output and_out,or_out,not_out,xor_out,xnor_out,nand_out,nor_out;
+and g1(and_out,a,b);//output should be follwed by input.
+or g2(or_out,a,b);
+not g3(not_out,a);
+xor g4(xor_out,a,b);
+xnor g5(xnor_out,a,b);
+nand g6(nand_out,a,b);
+nor g7(nor_out,a,b);
+endmodule 
+ ~~~
+![Screenshot 2024-03-07 093452](https://github.com/Meenu2823/study-of-basic-gates/assets/139416219/e9ebc1d6-89de-4a77-846e-84fcffa9c6e2)
+
 **Logic symbol & Truthtable**
 
-**RTL realization Output:** 
+![Logic gates symbol](https://github.com/Meenu2823/study-of-basic-gates/assets/139416219/62d3f155-880d-4140-a853-209b84b384df)
 
-**RTL**
+![image](https://github.com/keerthanapillaram/study-of-basic-gates/assets/145743072/c27b0a4a-e6bd-4064-b214-e65fcf5b5303)
+
+**RTL realization Output:** 
+![image](https://github.com/Meenu2823/study-of-basic-gates/assets/139416219/8ce8fb81-8518-49f0-9eb5-1e6d8bf99339)
+
+![Screenshot 2024-03-07 093359](https://github.com/Meenu2823/study-of-basic-gates/assets/139416219/1b2064ba-6524-43cd-8e46-53e43d2da502)
+
 
 **Result:**
 
+Thus,the truth table of logic gates has been studied and verified in Quartus II using Verilog programming.
 
